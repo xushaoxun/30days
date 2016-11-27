@@ -1,9 +1,9 @@
 # coding:utf-8
 
 
-# DB_HOST = 'localhost'
-# DB_PORT = 27017
-# DATABASE_NAME = 'webscraping'
+DB_HOST = 'localhost'
+DB_PORT = 27017
+DATABASE_NAME = 'webscraping'
 DB_URI = 'mongodb://localhost:27017/webscraping'
 
 TIMEOUT = 3
@@ -21,6 +21,7 @@ PROXY_SITES = [
     'http://www.youdaili.net/Daili/http/4562.html',
     'http://www.kuaidaili.com',
     'http://proxy.mimvp.com',
+    'http://api.xicidaili.com/free2016.txt',
 ]
 
 REFERER_LIST = [
@@ -29,7 +30,7 @@ REFERER_LIST = [
     'http://www.baidu.com/',
 ]
 
-COUNTRY_URL = 'http://example.webscraping.com/index/{}'
+COUNTRY_URL = 'http://example.webscraping.com'
 
 if __name__ == '__main__':
     import re
